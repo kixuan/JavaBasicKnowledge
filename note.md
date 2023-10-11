@@ -1,4 +1,4 @@
-## 10
+## 第10章
 
 不记得什么时候做的笔记了、、、
 
@@ -8,7 +8,6 @@
 类方法：修饰符 static 数据返回类型 方法名(){};
 
 特点：
-
 1. 所有类对象共享
 2. 在类加载的时候就已经创建了，类加载是会创建一个class对象，包括了类变量，所以不依赖于对象——可以直接用`类.类变量名`
    访问，也可以用`对象名.类变量名`（前提是满足修饰符访问权限，反正都是一个值
@@ -35,6 +34,7 @@ public static void main(String[] args){}
 
 （5）例如：java 执行的程序 参数1 参数2 参数3
 
+
 ### 10.3 代码块
 
 （1）相当于另外一种形式的构造器（对构造器的补充机制），可以做初始化的操作；
@@ -59,7 +59,7 @@ public static void main(String[] args){}
 
 ​ ④ 使用子类的静态成员时，父类也会被加载。
 
-## 11 、枚举和注解
+## 第11章 枚举和注解
 
 ### 枚举
 
@@ -227,3 +227,196 @@ enum Season2 {
 2. Target // 指定注解可以在哪些地方使用
 3. Documented //指定该注解是否会在 javadoc 体现
 4. Inherited //子类会继承父类注解
+
+## 第12章 异常
+
+### 1、基本概念
+
+Java语言中，将程序执行中发生的不正常情况称为“异常”。(开发过程中的语法错误和逻辑错误不是异常)
+
+执行过程中所发生的异常事件可分为两大类：
+
+- Error(错误)： **Java虚拟机无法解决的严重问题，程序会崩溃**。比如: StackOverflowError[栈溢出]和OOM(out ofmemory)。
+- Exception: **其它因编程错误或偶然的外在因素导致的一般性问题**，可以使用针对性的代码进行处理。例如空指针访问，试图读取不存在的文件，网络连接中断等等
+
+### 2、异常分类
+
+Exception 分为两大类：运行时异常和编译时异常
+
+**运行时异常**：编译器检查不出来。一般是指编程时的逻辑错误，是程序员应该避免其出现的异常。**java.lang.RuntimeException**
+类及它的子类都是运行时异常对于运行时异常，可以不作处理，因为这类异常很普遍，若全处理可能会对程序的可读性和运行效率产生影响
+
+- **NullPointerException** 空指针异常 ：试图在需要对象的地方使用null
+
+- **ArithmeticException** 数学运算异常 ：例除以零
+
+- **ArrayIndexOutOfBoundsException** 数组下标越界异常 ：用非法索引访问数组时抛出的异常
+
+- **ClassCastException** 类型转换异常 ：将对象强制转换为不是实例的子类时
+
+- **NumberFormatException** 数字格式不正确异常：将字符串转换成一种数值类型，但该字符串不能转换为适当格式时
+
+**编译时异常**：编程时编译器检查出的异常，是编译器要求必须处置的异常
+
+- **SQLException** //操作数据库时，查询表可能发生异常
+- **IOException** //操作文件时，发生的异常
+- **FileNotFoundException** //当操作一个不存在的文件时，发生异常
+- **ClassNotFoundException** //加载类，而该类不存在时，异常
+- **EOFException** // 操作文件，到文件未尾，发生异常
+- **lllegalArguementException** //参数异常
+
+tips：巧用图表获取类的继承关系
+
+空格搜索
+
+![image-20231011130956821](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231011130956821.png)
+
+异常体系图：【重要捏】
+
+![image-20231011130553903](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231011130553903.png)
+
+### 3、异常处理方法
+
+二选一，默认throws
+
+1) try-catch-finally
+
+- 快捷键 ctrl + alt + t -> 选中 try-catch
+- 如果异常没有发生，则顺序执行try的代码块，不会进入到catch
+- 异常发生了，则直接进入到catch块
+- 不管是否发生异常，都执行某段代码(比如关闭连接，释放资源等)则使用finally，但它不是必要的
+
+```java
+        try{
+        String str="韩顺平";
+        int a=Integer.parseInt(str);
+        System.out.println("数字："+a);
+        }catch(NumberFormatException e){
+        System.out.println("异常信息="+e.getMessage());
+        }finally{
+        System.out.println("finally代码块被执行...");
+        }
+
+        System.out.println("程序继续...");
+```
+
+- 可以有多个catch语句，捕获不同的异常(进行不同的业务处理)，要求父类异常在后，子类异常在前)
+
+```java
+        //1.如果try代码块有可能有多个异常
+//2.可以使用多个catch 分别捕获不同的异常，相应处理
+//3.要求子类异常写在前面，父类异常写在后面
+        try{
+                Person person=new Person();
+                //person = null;
+                System.out.println(person.getName());//NullPointerException
+                int n1=10;
+                int n2=0;
+                int res=n1/n2;//ArithmeticException
+                }catch(NullPointerException e){
+                System.out.println("空指针异常="+e.getMessage());
+                }catch(ArithmeticException e){
+                System.out.println("算术异常="+e.getMessage());
+                }catch(Exception e){
+                System.out.println(e.getMessage());
+                }finally{
+                }
+```
+
+- 可以进行 try-finally 配合使用,这种用法相当于没有捕获异常，因此程序会直接崩掉/退出。应用场景:就是执行一段代码，*
+  *不管是否发生异常，都必须执行某个业务逻辑**
+
+
+2. throws
+
+将发生的异常抛出，交给调用者(方法)来处理，最顶级的处理者就是JVM
+
+- 如果一个方法不能确定如何处理这种异常，则显示地声明抛出异常，表明该方法将不对这些异常进行处理，而由该方法的调用者负责处理异常进行处理，
+
+![image-20231011132550543](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231011132550543.png)
+
+- 在方法声明中用throws语句可以声明抛出异常的列表，throws后面的异常类型可以是方法中产生的异常类型，也可以是它的父类。
+
+```java
+    public void f2()throws FileNotFoundException,NullPointerException,ArithmeticException{
+        FileInputStream fis=new FileInputStream("d://aa.txt");
+        }
+```
+
+使用细节：
+
+1. 对于编译异常，程序中必须处理，比如 try-catch 或者 throws
+2. 对于运行时异常，程序中如果没有处理，默认就是throws的方式处理
+3. 子类重写父类的方法时，对抛出异常的规定:**子类重写的方法，所抛出的异常类型要么和父类抛出异常一致，要么为父类抛出异常类型的子类型
+   **
+4. 在throws 过程中，如果有方法 try-catch，就相当于处理异常，就可以不必throws【二选一】
+5. 编译异常和运行异常的区别：子类抛出编译异常时父类也必须抛出，子类抛出运行异常时父类可以不抛出
+
+### 4、自定义异常
+
+当程序中出现了某些“错误”但该错误信息并没有在Throwable子类中描述处理，这个时候可以自己设计异常类，用于描述该错误信息。
+
+步骤：
+
+1. 定义类:自定义异常类名(程序员自己写)继承Exception或RuntimeException
+2. 如果继承Exception，属于编译异常
+3. 如果继承RuntimeException，属于运行异常**(一般来说，继承RuntimeException)**
+
+```java
+public class CustomException {
+   public static void main(String[] args) /*throws AgeException*/ {
+
+      int age = 180;
+      //要求范围在 18 – 120 之间，否则抛出一个自定义异常
+      if (!(age >= 18 && age <= 120)) {
+         //这里我们可以通过构造器，设置信息
+         throw new AgeException("年龄需要在 18~120之间");
+      }
+      System.out.println("你的年龄范围正确.");
+   }
+}
+
+//自定义一个异常
+//老韩解读
+//1. 一般情况下，我们自定义异常是继承 RuntimeException
+//2. 即把自定义异常做成 运行时异常，好处时，我们可以使用默认的处理机制,比较方便
+class AgeException extends RuntimeException {
+   public AgeException(String message) {//构造器
+      super(message);
+   }
+}
+```
+
+tips：注意throw和throws的区别
+
+- throw 用于方法体中，后面跟异常对象
+  `throw new AgeException("年龄需要在 18~120之间")`
+- throws 用于方法声明处，后面跟异常类型
+  `public void f2() throws FileNotFoundException`
+
+练习：判断语句输出顺序
+
+```java
+public class Homework03 {
+   public static void func() {//静态方法
+      try {
+         throw new RuntimeException();
+      } finally {
+         System.out.println("B");
+      }
+   }
+
+   public static void main(String[] args) {//main方法
+      try {
+         func();
+         System.out.println("A");
+      } catch (Exception e) {
+         System.out.println("C");
+      }
+      System.out.println("D");
+   }
+}
+
+// B C D
+```
+
