@@ -1,0 +1,1 @@
+2023/10/16 18:02:07 [error] 26588#22928: *8 CreateFile() "E:\Project\Java\hmall-nginx/html/hmall-portal/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:18080"
