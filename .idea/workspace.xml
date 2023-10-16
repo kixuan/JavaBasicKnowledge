@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：SpringCloud项目初始化">
-      <change afterPath="$PROJECT_DIR$/SpringCloudDemo/hmall/item-service/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/资料/mq.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudDemo/hmall/item-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudDemo/hmall/item-service/src/main/resources/application.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：SpringCloudDemo init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -55,9 +52,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2WqFD8BQJT5xdxm3PeX3lyNPMkR" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,22 +63,22 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Project/Java/JavaStudy/SpringCloudDemo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/JavaStudy/SpringCloudDemo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -91,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697452081289</updated>
       <workItem from="1697452082376" duration="2740000" />
+      <workItem from="1697470381894" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="feat:13.常用类">
       <option name="closed" value="true" />
@@ -188,7 +186,39 @@
       <option name="project" value="LOCAL" />
       <updated>1697453966900</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat：SwaggerDemo">
+      <option name="closed" value="true" />
+      <created>1697470425302</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697470425302</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat：WordExportDemo">
+      <option name="closed" value="true" />
+      <created>1697470452963</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697470452963</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat：RabbitMQDemo">
+      <option name="closed" value="true" />
+      <created>1697470519279</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697470519279</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat：SpringCloudDemo init">
+      <option name="closed" value="true" />
+      <created>1697470644686</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697470644686</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +259,11 @@
     <MESSAGE value="feat：反编译apkDemo" />
     <MESSAGE value="feat：易班登录Demo" />
     <MESSAGE value="feat：SpringCloud项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat：SpringCloud项目初始化" />
+    <MESSAGE value="feat：SwaggerDemo" />
+    <MESSAGE value="feat：WordExportDemo" />
+    <MESSAGE value="feat：RabbitMQDemo" />
+    <MESSAGE value="feat：SpringCloudDemo init" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：SpringCloudDemo init" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
