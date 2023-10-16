@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：SpringCloud项目初始化">
+      <change afterPath="$PROJECT_DIR$/SpringCloudDemo/hmall/item-service/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/资料/mq.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudDemo/hmall/item-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudDemo/hmall/item-service/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1697452493" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/JavaBasicKnowledge" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Download/java/apache-maven-3.9.1" />
+        <option name="userSettingsFile" value="E:\Download\java\apache-maven-3.9.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2WqFD8BQJT5xdxm3PeX3lyNPMkR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Project/Java/JavaStudy/SpringCloudDemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="" />
+      <created>1697452081289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697452081289</updated>
+      <workItem from="1697452082376" duration="2740000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat:13.常用类">
+      <option name="closed" value="true" />
+      <created>1697452133967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697452133967</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat:RabbitMQ学习">
+      <option name="closed" value="true" />
+      <created>1697452211947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697452211947</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat:13.常用类">
+      <option name="closed" value="true" />
+      <created>1697452534989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697452534989</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat：13.常用类">
+      <option name="closed" value="true" />
+      <created>1697452928807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697452928807</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat：14.集合类1/3">
+      <option name="closed" value="true" />
+      <created>1697453105900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453105900</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat：RabbitMQ Demo">
+      <option name="closed" value="true" />
+      <created>1697453153889</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453153889</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat：Swagger Demo">
+      <option name="closed" value="true" />
+      <created>1697453189676</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453189676</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat：WordExport Demo">
+      <option name="closed" value="true" />
+      <created>1697453455130</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453455130</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat：易班登录Demo">
+      <option name="closed" value="true" />
+      <created>1697453500783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453500783</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat：反编译apkDemo">
+      <option name="closed" value="true" />
+      <created>1697453735151</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453735151</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat：反编译apkDemo">
+      <option name="closed" value="true" />
+      <created>1697453790972</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453790972</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat：SpringCloud项目初始化">
+      <option name="closed" value="true" />
+      <created>1697453966900</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453966900</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat:RabbitMQ学习" />
+    <MESSAGE value="feat:13.常用类" />
+    <MESSAGE value="feat：13.常用类" />
+    <MESSAGE value="feat：14.集合类1/3" />
+    <MESSAGE value="feat：RabbitMQ Demo" />
+    <MESSAGE value="feat：Swagger Demo" />
+    <MESSAGE value="feat：WordExport Demo" />
+    <MESSAGE value="feat：反编译apkDemo" />
+    <MESSAGE value="feat：易班登录Demo" />
+    <MESSAGE value="feat：SpringCloud项目初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：SpringCloud项目初始化" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
