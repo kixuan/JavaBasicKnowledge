@@ -1,0 +1,16 @@
+server:
+  port: 8085
+hm:
+  db:
+    database: hm-trade
+  swagger:
+    title: 交易管理接口文档
+    package: com.hmall.trade.controller
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1 # 你的虚拟机IP
+    port: 5672 # 端口
+    virtual-host: /guest2 # 虚拟主机
+    username: guest2 # 用户名
+    password: guest2 # 密码

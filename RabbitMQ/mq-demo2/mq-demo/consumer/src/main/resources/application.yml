@@ -1,0 +1,18 @@
+#logging:
+#  pattern:
+#    dateformat: MM-dd HH:mm:ss:SSS
+#  level:
+#    com.itheima: debug
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /guest2
+    username: guest2
+    password: guest2
+    listener:
+      simple:
+        prefetch: 1
+        acknowledge-mode: auto # 确认机制
+        retry:
+          enabled: true # 开启重试机制
