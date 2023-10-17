@@ -1,0 +1,145 @@
+14:49:18:335  INFO 31612 --- [main] com.hmall.trade.TradeApplication         : Starting TradeApplication using Java 11.0.20.1 on LAPTOP-AV2CUG49 with PID 31612 (E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes started by 醒酒器 in E:\Project\Java\JavaStudy\SpringCloudDemo)
+14:49:18:338 DEBUG 31612 --- [main] com.hmall.trade.TradeApplication         : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:49:18:339  INFO 31612 --- [main] com.hmall.trade.TradeApplication         : The following 1 profile is active: "local"
+14:49:19:607  INFO 31612 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5fef5bcc-bf0f-32af-be08-a7152c28e073
+14:49:20:016  INFO 31612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+14:49:20:026  INFO 31612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:49:20:027  INFO 31612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:49:20:168  INFO 31612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:49:20:169  INFO 31612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1777 ms
+14:49:20:234  WARN 31612 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hmall.api.client.ItemClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+14:49:20:239  INFO 31612 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+14:49:20:255  INFO 31612 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:49:20:273 ERROR 31612 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hmall.trade.service.impl.OrderServiceImpl required a bean of type 'com.hmall.api.client.ItemClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hmall.api.client.ItemClient' in your configuration.
+
+15:10:26:074  INFO 27940 --- [main] com.hmall.trade.TradeApplication         : Starting TradeApplication using Java 11.0.20.1 on LAPTOP-AV2CUG49 with PID 27940 (E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes started by 醒酒器 in E:\Project\Java\JavaStudy\SpringCloudDemo)
+15:10:26:078 DEBUG 27940 --- [main] com.hmall.trade.TradeApplication         : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:10:26:079  INFO 27940 --- [main] com.hmall.trade.TradeApplication         : The following 1 profile is active: "local"
+15:10:27:977  INFO 27940 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=87f2f68c-5419-3134-b7ed-e7760bc1d768
+15:10:28:776  INFO 27940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+15:10:28:798  INFO 27940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:10:28:799  INFO 27940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:10:29:156  INFO 27940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:10:29:157  INFO 27940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2999 ms
+15:10:33:283  WARN 27940 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hmall.api.client.CartClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+15:10:33:288  INFO 27940 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+15:10:33:315  INFO 27940 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:10:33:349 ERROR 27940 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.hmall.trade.service.impl.OrderServiceImpl required a bean of type 'com.hmall.api.client.CartClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hmall.api.client.CartClient' in your configuration.
+
+15:13:06:539  INFO 29828 --- [main] com.hmall.trade.TradeApplication         : Starting TradeApplication using Java 11.0.20.1 on LAPTOP-AV2CUG49 with PID 29828 (E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes started by 醒酒器 in E:\Project\Java\JavaStudy\SpringCloudDemo)
+15:13:06:544 DEBUG 29828 --- [main] com.hmall.trade.TradeApplication         : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:13:06:544  INFO 29828 --- [main] com.hmall.trade.TradeApplication         : The following 1 profile is active: "local"
+15:13:08:388  INFO 29828 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=87f2f68c-5419-3134-b7ed-e7760bc1d768
+15:13:09:027  INFO 29828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+15:13:09:044  INFO 29828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:13:09:045  INFO 29828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:13:09:321  INFO 29828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:13:09:322  INFO 29828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2702 ms
+15:13:13:068  WARN 29828 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hmall.api.client.CartClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+15:13:13:073  INFO 29828 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+15:13:13:097  INFO 29828 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:13:13:122 ERROR 29828 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.hmall.trade.service.impl.OrderServiceImpl required a bean of type 'com.hmall.api.client.CartClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hmall.api.client.CartClient' in your configuration.
+
+15:13:42:450  INFO 30980 --- [main] com.hmall.trade.TradeApplication         : Starting TradeApplication using Java 11.0.20.1 on LAPTOP-AV2CUG49 with PID 30980 (E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes started by 醒酒器 in E:\Project\Java\JavaStudy\SpringCloudDemo)
+15:13:42:455 DEBUG 30980 --- [main] com.hmall.trade.TradeApplication         : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:13:42:455  INFO 30980 --- [main] com.hmall.trade.TradeApplication         : The following 1 profile is active: "local"
+15:13:44:258  INFO 30980 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=617ae161-926b-3012-98e4-1e472aa397d0
+15:13:44:866  INFO 30980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+15:13:44:882  INFO 30980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:13:44:883  INFO 30980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:13:45:154  INFO 30980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:13:45:155  INFO 30980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2622 ms
+15:13:48:935  WARN 30980 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hmall.api.client.CartClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+15:13:48:940  INFO 30980 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+15:13:48:965  INFO 30980 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:13:48:993 ERROR 30980 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.hmall.trade.service.impl.OrderServiceImpl required a bean of type 'com.hmall.api.client.CartClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hmall.api.client.CartClient' in your configuration.
+
+15:18:05:368  INFO 5300 --- [main] com.hmall.trade.TradeApplication         : Starting TradeApplication using Java 11.0.20.1 on LAPTOP-AV2CUG49 with PID 5300 (E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes started by 醒酒器 in E:\Project\Java\JavaStudy\SpringCloudDemo)
+15:18:05:373 DEBUG 5300 --- [main] com.hmall.trade.TradeApplication         : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:18:05:373  INFO 5300 --- [main] com.hmall.trade.TradeApplication         : The following 1 profile is active: "local"
+15:18:07:252  INFO 5300 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=617ae161-926b-3012-98e4-1e472aa397d0
+15:18:07:882  INFO 5300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+15:18:07:895  INFO 5300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:18:07:897  INFO 5300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:18:08:175  INFO 5300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:18:08:176  INFO 5300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2731 ms
+15:18:12:087  WARN 5300 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [E:\Project\Java\JavaStudy\SpringCloudDemo\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hmall.api.client.CartClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+15:18:12:094  INFO 5300 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+15:18:12:120  INFO 5300 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:18:12:150 ERROR 5300 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.hmall.trade.service.impl.OrderServiceImpl required a bean of type 'com.hmall.api.client.CartClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hmall.api.client.CartClient' in your configuration.
+
