@@ -20,6 +20,7 @@ public class Homework06 {
         System.out.println(set);//2
         set.add(new Person(1001, "CC"));
         System.out.println(set);//3
+        // 因为下面重写了equals和hashCode，只有id和name都相同，才会认为是同一个对象
         set.add(new Person(1001, "AA"));
         System.out.println(set);//4
 
