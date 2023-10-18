@@ -1074,3 +1074,147 @@ public int compare(Object o1,Object o2){
         Collections.copy(dest,list);  // 拷贝，记得先赋值，大小要一样
         Collections.replaceAll(list,"tom","汤姆"); // 替换
 ```
+
+## 第15章 泛型
+
+### 简单使用
+
+使用传统方法的问题分析
+
+1. 不能对加入到集合 ArrayList中的数据类型进行约束(不安全)
+2. 遍历的时候，需要进行类型转换，如果集合中的数据量较大，对效率有影响
+
+泛型的好处
+
+1. 编译时检查添加元素的类型，提高了安全性
+2. 减少了类型转换的次数,提高效率
+3. 不再提示编译警告ClassCastException
+
+泛型的声明
+
+```java
+interface 接口<T>{}和 class 类<KV>{}
+//其中，T,K,V不代表值，而是表示类型
+///任意字母都可以。常用T表示，是Type的缩写
+```
+
+泛型的实例化：
+
+1. 要在类名后面指定类型参数的值/类型
+2. 注意只能是引用类型，像Integer，不能是int
+3. 不写的话默认就是Object
+
+```java
+	List<String> strList = new ArrayList<String>();
+	Iterator< Customer> iterator = customers.iterator():
+
+//来个粒子
+	HashSet<Student> students = new HashSet<Student>
+    HashSet<Student> students = new HashSet<>  // 简写
+//使用泛型方式给 HashMap 放入学生对象  
+	HashMap<String, Student> hm = new HashMap<String, Student>
+	hm.put("milan", new Student("milan", 38)
+	Iterator<Map.Entry<String, Student>> iterator = entries.iterator();
+	System.out.println("==============================");
+	while (iterator.hasNext()) {
+		Map.Entry<String, Student> next = iterator.next();
+		System.out.println(next.getKey() + "-" + next.getValue());
+}
+```
+
+### 自定义泛型
+
+#### 自定义泛型类
+
+基本语法：
+
+```java
+class 类名<T,R...>{}//...表示可以有多个泛型成员
+
+// 来个粒子
+class Tiger<T, R, M> {
+    String name;
+    R r;
+    M m;
+    T t;
+}
+public Tiger(String name, R r, M m, T t) {//构造器使用泛型
+    this.name = name;
+    this.r = r;
+    this.m = m;
+    this.t = t;
+}
+public void setR(R r) {//方法使用到泛型
+	this.r = r;
+}
+public M getM() {//返回类型可以使用泛型
+    return m;
+}
+```
+
+使用细节：
+
+1. 普通成员可以使用泛型(属性、方法)
+2. 使用泛型的数组，不能初始化（不确定分配多少内存）
+3. 静态方法中不能使用类的泛型（因为静态是和类相关的，在类加载时，对象还没有创建）
+4. 泛型类的类型，是在创建对象时确定的(因为创建对象时需要指定确定类型)
+5. 如果在创建对象时，没有指定类型，默认为Object
+
+#### 自定义泛型接口
+
+1. 接口中，静态成员也不能使用泛型(这个和泛型类规定一样)
+2. 泛型接口的类型，在继承接口或者实现接口时确定
+3. 没有指定类型，默认为object
+
+```java
+interface IUsb<U, R> {
+    void run(R r1, R r2, U u1, U u2);
+}
+
+interface IA extends IUsb<String, Double> {
+}
+
+class AA implements IA {
+    @Override
+    public void run(Double r1, Double r2, String u1, String u2) {
+    }
+}
+```
+
+#### 自定义泛型方法
+
+```java
+//修饰符 <T,R..>返回类型 方法名(参数列表){}
+
+class Fish<T, R> {//泛型类
+
+    public <U, M> void eat(U u, M m) {
+    }//泛型方法 
+
+    public <K> void hello(R r, K k) {
+        System.out.println(r.getClass());
+        System.out.println(k.getClass());
+    }
+
+    public static void main(String[] args) {
+        Fish<String, ArrayList> fish = new Fish<>();
+        fish.hello(new ArrayList(), 11.3f);
+    }
+```
+
+注意细节
+
+1. 泛型方法，可以定义在普通类中,也可以定义在泛型类中
+2. 当泛型方法被调用时，类型会确定
+3. public void eat(E e)，修饰符后没有<T,R..> eat方法不是泛型方法，而是使用了泛型
+
+### 泛型的继承和通配符
+
+```java
+//1. 泛型不具备继承性
+   List<Object> list = new ArrayList<String>(); // 错误
+//2. <?>:支持任意泛型类型
+//3. <? extends A>:支持A类以及A类的子类，规定了泛型的上限
+//4. <? super A>:支持A类以及A类的父类，不限于直接父类，规定了泛型的下限
+```
+
