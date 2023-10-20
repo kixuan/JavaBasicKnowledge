@@ -2,7 +2,7 @@ out
 .idea
 logs
 target
-.iml
+*.iml
 *.log
 *.gz
 ```
