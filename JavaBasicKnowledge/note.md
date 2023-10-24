@@ -1236,7 +1236,7 @@ class Fish<T, R> {//泛型类
 
 并行: 同一个时刻，多个任务同时执行。多核cpu可以实现并行。 
 
-### ### 基本使用
+### 基本使用
 
 #### 创建线程的两种方式
 
@@ -1246,3 +1246,341 @@ class Fish<T, R> {//泛型类
 2. 实现Runnable接口，重写 run方法
 
 ![image-20231020113225018](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231020113225018.png)
+
+线程状态转换图
+
+![image-20231021234314939](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231021234314939.png)
+
+## 第18章 IO流
+
+### 基本操作
+
+文件：保存数据的地方
+
+文件流：数据在数据源(文件)和程序(内存)之间经历的路径输入流，文件在程序中是以流的形式来操作的
+
+输入流：数据从数据源(文件)到程序(内存)的路径
+
+输出流：数据从程序(内存)到数据源(文件)的路径
+
+【注意这里的输入输出是相对于内存而言的】
+
+创建文件对象的三种方式：
+
+1. `new File(String pathname) `//根据路径构建一个File对象
+2. `new File(File parent,String child)`//根据父目录文件+子路径构建
+3. `new File(String parent,String child)`//根据父目录+子路径构建
+
+获取文件的相关信息
+
+```java
+    public void info(){
+        File file=new File("e:\\news1.txt");
+        try{
+        file.createNewFile();
+        }catch(IOException e){
+        throw new RuntimeException(e);
+        }
+        System.out.println("文件名字="+file.getName());
+        System.out.println("文件绝对路径="+file.getAbsolutePath());
+        System.out.println("文件父级目录="+file.getParent());
+        System.out.println("文件大小(字节)="+file.length());
+        System.out.println("文件是否存在="+file.exists());//T
+        System.out.println("是不是一个文件="+file.isFile());//T
+        System.out.println("是不是一个目录="+file.isDirectory());//F
+        }
+```
+
+目录的操作和文件删除
+
+```java
+exists();   //是否存在
+        delete();   //删除
+        mkdir();    // 创建一级目录
+        mkdirs();   // 创建多级目录
+```
+
+### IO流
+
+#### 流的分类
+
+- 按操作数据单位不同分为: 字节流(8 bit) 二进制文件，字符流(按字符)文本文件
+
+- 按数据流的流向不同分为: 输入流，输出流
+
+- 按流的角色的不同分为: 节点流，处理流/包装流
+
+![image-20231023235019574](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231023235019574.png)
+
+#### IO流体系图
+
+这个图很重要捏
+
+![image-20231023235048655](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231023235048655.png)
+
+### FileInputStream & FileOutputStream
+
+字节输入流 文件--> 程序
+
+1. FileInputStream 代码示例
+
+```java
+        // 使用 read(byte[] b) 读取文件，提高效率
+		String filePath="e:\\hello.txt";
+                byte[]buf=new byte[8]; //一次读取8个字节.
+                int readLen=0;
+                FileInputStream fileInputStream=null;
+                try{
+                //创建 FileInputStream 对象，用于读取 文件
+                fileInputStream=new FileInputStream(filePath);
+                //从该输入流读取最多b.length字节的数据到字节数组。 此方法将阻塞，直到某些输入可用。
+                //如果返回-1 , 表示读取完毕
+                while((readLen=fileInputStream.read(buf))!=-1){
+                System.out.print(new String(buf,0,readLen));
+                }
+                }catch(IOException e){
+                e.printStackTrace();
+                }finally{
+                try{
+                fileInputStream.close();
+                }catch(IOException e){
+                e.printStackTrace();
+                }
+                }
+```
+
+2. FileOutputStream代码示例
+
+```java
+String filePath="e:\\a.txt";
+        FileOutputStream fileOutputStream=null;
+        try{
+        // 有true的话就是：写入内容是追加到文件后面，没有覆盖
+        fileOutputStream=new FileOutputStream(filePath,true);
+        String str="hsp,worl
+        fileOutputStream.write(str.getBytes(),0,3);
+        }catch(IOException e){
+        e.printStackTrace();
+        }finally{
+        try{
+        fileOutputStream.close();
+        }catch(IOException e){
+        e.printStackTrace();
+        }
+        }
+```
+
+3. 结合示例：拷贝啦
+
+```java
+    public static void main(String[]args){
+        //1. 创建文件的输入流 , 将文件读入到程序
+        //2. 创建文件的输出流， 将读取到的文件数据，写入到指定的文件.
+        String srcFilePath="e:\\Koala.jpg";
+        String destFilePath="e:\\Koala3.jpg";
+        FileInputStream fileInputStream=null;
+        FileOutputStream fileOutputStream=null;
+        try{
+        fileInputStream=new FileInputStream(srcFilePath);
+        fileOutputStream=new FileOutputStream(destFilePath);
+        //定义一个字节数组,提高读取效果
+        byte[]buf=new byte[1024];
+        int readLen=0;
+        while((readLen=fileInputStream.read(buf))!=-1){
+        //读取到后，就写入到文件 通过 fileOutputStream
+        fileOutputStream.write(buf,0,readLen);//一定要使用这个方法
+        }
+        System.out.println("拷贝ok~");
+        }catch(IOException e){
+        e.printStackTrace();
+        }finally{
+        try{
+        if(fileInputStream!=null){
+        fileInputStream.close();
+        }
+        if(fileOutputStream!=null){
+        fileOutputStream.close();
+        }
+        }catch(IOException e){
+        e.printStackTrace();
+        }
+        }
+        }
+```
+
+### FileReader & FileWriter
+
+FileReader ：怎么感觉和FileInputStream差不多的
+
+FileWriter：使用后，必须要关闭(close)或刷新(flush)，否则写入不到指定的文件!
+
+### 节点流和处理流
+
+定义：
+
+节点流：可以从一个特定的数据源读写数据，如FileReader、FileWriter
+
+处理流(/包装流)：是“连接”在已存在的流(节点流或处理流)之上，为程序提供更为强大的读写功能，也更加灵活,如BufferedReader、BufferedWriter
+
+节点流和处理流的区别和联系：
+
+1. 节点流是底层流/低级流,直接跟数据源相接。便的方法来完成输入输出。
+2. 处理流(包装流)包装节点流，既可以消除不同节点流的实现差异，也可以提供更方便
+
+处理流的作用：
+
+1. 性能的提高:主要以增加缓冲的方式来提高输入输出的效率用更加灵活方便
+2. 操作的便捷:处理流可能提供了一系列便捷的方法来一次输入输出大批量的数据，使
+
+节点流和处理流一览图
+
+![image-20231024001941083](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231024001941083.png)
+
+#### BufferedReader & BufferedWriter
+
+怎么感觉也是一样的—。—
+
+就是close的时候不用判断罢了
+
+注意事项：不要去操作 二进制文件[声音，视频，doc, pdf ], 可能造成文件损坏
+
+#### BufferedInputStream & BufferedOutputStream
+
+BufferedInputStream是字节流在创建 BufferedInputStream时，会创建一个内部缓冲区数组
+
+BufferedOutputStream是字节流，实现缓冲的输出流，可以将多个字节写入底层输出流中，而不必对每次字节写入调用底层系统
+
+这个就可以操作二进制文件[声音，视频，doc, pdf ]
+
+#### ObjectInputStream & ObjectOutputStream
+
+对象流
+
+序列化和反序列化
+
+- 序列化就是在保存数据时，保存数据的值和数据类型
+
+- 反序列化就是在恢复数据时，恢复数据的值和数据类型
+
+- 需要让某个对象支持序列化机制，则必须让其类是可序列化的，为了让某个类是可序列化的，该类必须实现如下接口：`Serializable`
+- ObjectInputStream 实现了序列化，ObjectOutputStream实现了反序列化
+
+注意事项和细节说明
+
+- 读写顺序要一致
+- 要求序列化或反序列化对象 ，需要 实现 Serializable
+- 序列化的类中建议添加SerialVersionUID,为了提高版本的兼容性
+- 序列化对象时，默认将里面所有属性都进行序列化，但除了static或transient修饰的成员
+- 序列化对象时，要求里面属性的类型也需要实现序列化接口
+- 序列化具备可继承性,也就是如果某类已经实现了序列化，则它的所有子类也已经默认实现了序列化
+
+```java
+// 1. 创建对象流
+ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream(filePath));
+        oos.writeInt(100);// int -> Integer (实现了 Serializable)
+        oos.writeBoolean(true);// boolean -> Boolean (实现了 Serializable)
+        oos.writeChar('a');// char -> Character (实现了 Serializable)
+        oos.writeDouble(9.5);// double -> Double (实现了 Serializable)
+        oos.writeUTF("韩顺平教育");//String
+//保存一个 dog 对象
+        oos.writeObject(new Dog("旺财",10,"日本","白色"));
+        oos.close();
+
+// 2. 读取对象流
+        ObjectInputStream ois=new ObjectInputStream(new FileInputStream(filePath));
+// 注意顺序
+        System.out.println(ois.readInt());
+        System.out.println(ois.readBoolean());
+        System.out.println(ois.readChar());
+        System.out.println(ois.readDouble());
+        System.out.println(ois.readUTF());
+        System.out.println(ois.readObject());
+        oos.close();
+```
+
+#### 标准输入输出流
+
+|                 | 类型          | 默认设备 |
+|-----------------|-------------|------|
+| System.in 标准输入  | InputStream | 键盘   |
+| System.out 标准输出 | PrintStream | 显示器  |
+
+System.out.println(“”); 是使用 out 对象将 数据输出到 显示器
+Scanner 是从 标准输入 键盘接收数据
+
+#### InputStreamReader & OutputStreamWriter
+
+转换流：解决文件乱码问题，底层原理是将字符文件转为二进制文件
+
+InputStreamReader ：将字节流 FileInputStream 转成字符流，还可以指定编码gbk/utf-8
+
+```java
+//1. 把 FileInputStream 转成 InputStreamReader，并指定编码 gbk
+InputStreamReader isr=new InputStreamReader(new FileInputStream(filePath),"gbk");
+//3. 把 InputStreamReader 传入 BufferedReader
+        BufferedReader br=new BufferedReader(isr);
+
+        String s=br.readLine();
+        System.out.println("读取内容="+s);
+        br.close();
+```
+
+OutputStreamWriter：将字节流 FileOutputStream 包装成(转换成)字符流OutputStreamWriter，对文件进行写入(
+按照gbk格式,可以指定其他，比如utf-8)
+
+```java
+String filePath="e:\\xxz.txt";
+        String charSet="utf-8";
+        OutputStreamWriter osw=new OutputStreamWriter(new FileOutputStream(filePath),charSet);
+        osw.write("hi, 迅迅子");
+        osw.close();
+        System.out.println("按照 "+charSet+" 保存文件成功");
+```
+
+#### PrintStream & PrintWrite
+
+PrintStream extends FilterOutputStream
+
+打印流，只有输出流，没有输入流
+
+```java
+PrintStream out=System.out;
+        out.print("john, hello");
+        out.write("xxz,你好".getBytes());
+        out.close();
+// 修改打印流输出的位置/设备
+        System.setOut(new PrintStream("e:\\f1.txt"));
+        System.out.println("hello, xxz");
+```
+
+### Properties 类
+
+更加方便地解析Properties 文件
+
+键值对不需要有空格，值不需要用引号一起来。默认类型是String
+
+常用方法：
+
+- load: 加载配置文件的键值对到Properties对象
+- list:将数据显示到指定设备
+- getProperty(key):根据键获取值
+- setProperty(key;value):设置键值对到Properties对象
+- store:将Properties中的键值对存储到配置文件,在idea 中，保存信息到配置文件，如果含有中文，会存储为unicode码
+
+```java
+   //1. 创建Properties 对象
+        Properties properties=new Properties();
+                //2. 加载指定配置文件
+                properties.load(new FileReader("E:\\Project\\mysql.properties"));
+                //3. 把k-v显示控制台
+                properties.list(System.out);
+                //4. 根据key 获取对应的值
+                String user=properties.getProperty("user");
+                String pwd=properties.getProperty("pwd");
+                System.out.println("用户名="+user);
+                System.out.println("密码是="+pwd);
+
+                properties.setProperty("user","迅迅子");//注意保存时，是中文的 unicode码值
+                properties.store(new FileOutputStream("E:\\Project\\mysql3.properties"),null);
+```
+

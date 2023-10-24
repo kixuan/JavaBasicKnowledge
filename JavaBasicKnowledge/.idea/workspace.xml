@@ -5,11 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d66c45-609e-4bf5-9538-cc898dc21f0c" name="更改" comment="feat：Java基础 15.泛型">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/BufferedInputStream.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/FileReader.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/FileWriter.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/InputStream.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/OutputStream.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/BufferedReader_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/FileReader_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/Reader_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/StringReader_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/Test_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/Directory_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/FileCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/FileInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/homework/Homework01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/homework/Homework02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/homework/Homework03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/inputstream_/FileInputStream_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/inputstream_/ObjectInputStream_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/BufferedCopy02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/FileCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/FileOutputStream01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/ObjectOutStream_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/printstream/PrintStream_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/properties_/Properties01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/properties_/Properties02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/properties_/Properties03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/reader_/BufferedReader_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/reader_/FileReader_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/standard/InputAndOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/CodeQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/InputStreamReader_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/OutputStreamWriter_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/PrintWriter_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/writer_/BufferedCopy_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/writer_/BufferedWriter_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/writer_/FileWriter_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/dog.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter19/src/mysql2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaBasicKnowledge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaBasicKnowledge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-gateway/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-gateway/target/classes/com/hmall/gateway/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/hm-gateway/target/classes/com/hmall/gateway/GatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/trade-service/target/classes/com/hmall/trade/service/impl/OrderLogisticsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/trade-service/target/classes/com/hmall/trade/service/impl/OrderLogisticsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/logs/cart-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/logs/item-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/logs/trade-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/logs/trade-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/logs/user-service/spring.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,36 +99,37 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Project/Java/CSZCS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/DesignPattern&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.ThreadState_">
-    <configuration name="CpuNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.CpuNum" />
+}</component>
+  <component name="RunManager" selected="应用程序.Properties03">
+    <configuration name="BufferedWriter_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.writer_.BufferedWriter_" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.*" />
+          <option name="PATTERN" value="com.hspedu.writer_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.generic.GenericExercise" />
+    <configuration name="PrintStream_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.printstream.PrintStream_" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.generic.*" />
+          <option name="PATTERN" value="com.hspedu.printstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericExercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.generic.GenericExercise02" />
+    <configuration name="Properties01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.properties_.Properties01" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.generic.*" />
+          <option name="PATTERN" value="com.hspedu.properties_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.threaduse.Thread01" />
+    <configuration name="Properties02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.properties_.Properties02" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.threaduse.*" />
+          <option name="PATTERN" value="com.hspedu.properties_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadState_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.state_.ThreadState_" />
+    <configuration name="Properties03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.properties_.Properties03" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.state_.*" />
+          <option name="PATTERN" value="com.hspedu.properties_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ThreadState_" />
-        <item itemvalue="应用程序.Thread01" />
-        <item itemvalue="应用程序.CpuNum" />
-        <item itemvalue="应用程序.GenericExercise02" />
-        <item itemvalue="应用程序.GenericExercise" />
+        <item itemvalue="应用程序.Properties03" />
+        <item itemvalue="应用程序.Properties02" />
+        <item itemvalue="应用程序.Properties01" />
+        <item itemvalue="应用程序.PrintStream_" />
+        <item itemvalue="应用程序.BufferedWriter_" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +221,12 @@
       <workItem from="1697603821002" duration="5995000" />
       <workItem from="1697644759018" duration="23000" />
       <workItem from="1697772055838" duration="4240000" />
+      <workItem from="1697902784040" duration="738000" />
+      <workItem from="1697971181889" duration="8000" />
+      <workItem from="1698023897580" duration="6086000" />
+      <workItem from="1698045523510" duration="15000" />
+      <workItem from="1698053101736" duration="5921000" />
+      <workItem from="1698107518455" duration="1721000" />
     </task>
     <task id="LOCAL-00001" summary="feat：Java基础 14.集合">
       <option name="closed" value="true" />
