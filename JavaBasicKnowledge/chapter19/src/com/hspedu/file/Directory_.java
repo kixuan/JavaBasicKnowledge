@@ -3,6 +3,8 @@ package com.hspedu.file;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
+import java.io.InputStream;
+import java.io.OutputStream;
 
 /**
  * @author 韩顺平

@@ -3,9 +3,7 @@ package com.hspedu.inputstream_;
 
 import com.hspedu.outputstream_.Dog;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
+import java.io.*;
 
 /**
  * @author 韩顺平

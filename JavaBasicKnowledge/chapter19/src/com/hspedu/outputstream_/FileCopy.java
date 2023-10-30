@@ -1,8 +1,8 @@
 package com.hspedu.outputstream_;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import com.hspedu.inputstream_.FileInputStream_;
+
+import java.io.*;
 
 /**
  * @author 韩顺平

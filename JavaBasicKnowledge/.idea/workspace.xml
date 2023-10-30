@@ -4,53 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d66c45-609e-4bf5-9538-cc898dc21f0c" name="更改" comment="feat：Java基础 15.泛型">
-      <change afterPath="$PROJECT_DIR$/chapter19/BufferedInputStream.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/FileReader.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/FileWriter.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/InputStream.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/OutputStream.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/BufferedReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/FileReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/Reader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/StringReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/Test_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/Directory_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/FileCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/FileInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/homework/Homework01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/homework/Homework02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/homework/Homework03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/inputstream_/FileInputStream_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/inputstream_/ObjectInputStream_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/BufferedCopy02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/FileCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/FileOutputStream01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/Master.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/ObjectOutStream_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/printstream/PrintStream_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/properties_/Properties01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/properties_/Properties02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/properties_/Properties03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/reader_/BufferedReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/reader_/FileReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/standard/InputAndOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/CodeQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/InputStreamReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/OutputStreamWriter_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/PrintWriter_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/writer_/BufferedCopy_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/writer_/BufferedWriter_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/writer_/FileWriter_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/dog.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/mysql.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter19/src/mysql2.properties" afterDir="false" />
+    <list default="true" id="93d66c45-609e-4bf5-9538-cc898dc21f0c" name="更改" comment="feat：Java基础 19.IO流">
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqclient/service/ClientConnectServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqclient/service/FileClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqclient/service/ManageClientConnectServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqclient/service/MessageClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqclient/service/UserClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqclient/utils/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqclient/view/QQView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqcommon/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqcommon/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQClient/src/com/hspedu/qqcommon/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQServer/src/com/hspedu/qqframe/QQFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQServer/src/com/hspedu/qqserver/service/ManageClientThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQServer/src/com/hspedu/qqserver/service/OffLineMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQServer/src/com/hspedu/qqserver/service/QQServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQServer/src/com/hspedu/qqserver/service/SendNewsToAllService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQServer/src/com/hspedu/qqserver/service/ServerConnectClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQServer/src/com/hspedu/utils/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/api/API_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/homework/Homework01Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/homework/Homework01Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/homework/Homework02ReceiverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/homework/Homework02SenderB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/homework/Homework03Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/homework/Homework03Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/homework/StreamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/socket/SocketTCP01Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/socket/SocketTCP01Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/socket/SocketTCP02Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/socket/SocketTCP02Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/socket/SocketTCP03Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/socket/SocketTCP03Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/udp/UDPReceiverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/udp/UDPSenderB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/upload/StreamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/upload/TCPFileUploadClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/com/hspedu/upload/TCPFileUploadServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/无名.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter21/src/高山流水.mp3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaBasicKnowledge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaBasicKnowledge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/Test_.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/Test_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/Directory_.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/Directory_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/FileCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/file/FileCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/inputstream_/FileInputStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/inputstream_/FileInputStream_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/inputstream_/ObjectInputStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/inputstream_/ObjectInputStream_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/FileCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/FileOutputStream01.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/FileOutputStream01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/ObjectOutStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/outputstream_/ObjectOutStream_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/reader_/FileReader_.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/reader_/FileReader_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/standard/InputAndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/standard/InputAndOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/CodeQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/CodeQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/InputStreamReader_.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/InputStreamReader_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/OutputStreamWriter_.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter19/src/com/hspedu/transformation/OutputStreamWriter_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudDemo/hmall/cart-service/target/classes/application.yaml" afterDir="false" />
@@ -110,7 +118,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/DesignPattern&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/JavaStudy/JavaBasicKnowledge&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -123,13 +131,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.Properties03">
-    <configuration name="BufferedWriter_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.writer_.BufferedWriter_" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\Java\JavaStudy\JavaBasicKnowledge" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Homework03Client">
+    <configuration name="Homework03Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.homework.Homework03Client" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.writer_.*" />
+          <option name="PATTERN" value="com.hspedu.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStream_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.printstream.PrintStream_" />
+    <configuration name="Homework03Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.homework.Homework03Server" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.printstream.*" />
+          <option name="PATTERN" value="com.hspedu.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Properties01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.properties_.Properties01" />
+    <configuration name="SocketTCP02Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.socket.SocketTCP02Client" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.properties_.*" />
+          <option name="PATTERN" value="com.hspedu.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Properties02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.properties_.Properties02" />
+    <configuration name="SocketTCP03Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.socket.SocketTCP03Client" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.properties_.*" />
+          <option name="PATTERN" value="com.hspedu.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Properties03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.properties_.Properties03" />
+    <configuration name="SocketTCP03Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.socket.SocketTCP03Server" />
       <module name="JavaBasicKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.properties_.*" />
+          <option name="PATTERN" value="com.hspedu.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Properties03" />
-        <item itemvalue="应用程序.Properties02" />
-        <item itemvalue="应用程序.Properties01" />
-        <item itemvalue="应用程序.PrintStream_" />
-        <item itemvalue="应用程序.BufferedWriter_" />
+        <item itemvalue="应用程序.Homework03Client" />
+        <item itemvalue="应用程序.Homework03Server" />
+        <item itemvalue="应用程序.SocketTCP03Client" />
+        <item itemvalue="应用程序.SocketTCP03Server" />
+        <item itemvalue="应用程序.SocketTCP02Client" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +240,11 @@
       <workItem from="1698045523510" duration="15000" />
       <workItem from="1698053101736" duration="5921000" />
       <workItem from="1698107518455" duration="1721000" />
+      <workItem from="1698123381919" duration="5433000" />
+      <workItem from="1698195697181" duration="117000" />
+      <workItem from="1698195890462" duration="3723000" />
+      <workItem from="1698282086550" duration="2418000" />
+      <workItem from="1698382607863" duration="18960000" />
     </task>
     <task id="LOCAL-00001" summary="feat：Java基础 14.集合">
       <option name="closed" value="true" />
@@ -244,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697638534248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat：Java基础 19.IO流">
+      <option name="closed" value="true" />
+      <created>1698123444444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698123444444</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +291,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat：Java基础 14.集合" />
     <MESSAGE value="feat：Java基础 15.泛型" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat：Java基础 15.泛型" />
+    <MESSAGE value="feat：Java基础 19.IO流" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：Java基础 19.IO流" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

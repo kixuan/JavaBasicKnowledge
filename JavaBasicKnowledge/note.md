@@ -1251,7 +1251,7 @@ class Fish<T, R> {//泛型类
 
 ![image-20231021234314939](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231021234314939.png)
 
-## 第18章 IO流
+## 第19章 IO流
 
 ### 基本操作
 
@@ -1318,7 +1318,7 @@ exists();   //是否存在
 
 ![image-20231023235048655](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231023235048655.png)
 
-### FileInputStream & FileOutputStream
+### 1、FileInputStream & FileOutputStream
 
 字节输入流 文件--> 程序
 
@@ -1408,7 +1408,7 @@ String filePath="e:\\a.txt";
         }
 ```
 
-### FileReader & FileWriter
+### 2、FileReader & FileWriter
 
 FileReader ：怎么感觉和FileInputStream差不多的
 
@@ -1436,7 +1436,7 @@ FileWriter：使用后，必须要关闭(close)或刷新(flush)，否则写入�
 
 ![image-20231024001941083](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231024001941083.png)
 
-#### BufferedReader & BufferedWriter
+#### 1、BufferedReader & BufferedWriter
 
 怎么感觉也是一样的—。—
 
@@ -1444,7 +1444,7 @@ FileWriter：使用后，必须要关闭(close)或刷新(flush)，否则写入�
 
 注意事项：不要去操作 二进制文件[声音，视频，doc, pdf ], 可能造成文件损坏
 
-#### BufferedInputStream & BufferedOutputStream
+#### 2、BufferedInputStream & BufferedOutputStream
 
 BufferedInputStream是字节流在创建 BufferedInputStream时，会创建一个内部缓冲区数组
 
@@ -1452,7 +1452,7 @@ BufferedOutputStream是字节流，实现缓冲的输出流，可以将多个字
 
 这个就可以操作二进制文件[声音，视频，doc, pdf ]
 
-#### ObjectInputStream & ObjectOutputStream
+#### 3、ObjectInputStream & ObjectOutputStream
 
 对象流
 
@@ -1498,7 +1498,7 @@ ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream(filePath));
         oos.close();
 ```
 
-#### 标准输入输出流
+#### 4、标准输入输出流
 
 |                 | 类型          | 默认设备 |
 |-----------------|-------------|------|
@@ -1508,7 +1508,7 @@ ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream(filePath));
 System.out.println(“”); 是使用 out 对象将 数据输出到 显示器
 Scanner 是从 标准输入 键盘接收数据
 
-#### InputStreamReader & OutputStreamWriter
+#### 5、InputStreamReader & OutputStreamWriter
 
 转换流：解决文件乱码问题，底层原理是将字符文件转为二进制文件
 
@@ -1537,7 +1537,7 @@ String filePath="e:\\xxz.txt";
         System.out.println("按照 "+charSet+" 保存文件成功");
 ```
 
-#### PrintStream & PrintWrite
+#### 6、PrintStream & PrintWrite
 
 PrintStream extends FilterOutputStream
 
@@ -1584,3 +1584,188 @@ PrintStream out=System.out;
                 properties.store(new FileOutputStream("E:\\Project\\mysql3.properties"),null);
 ```
 
+## 第21章 网络编程
+
+### 相关概念
+
+网络通信：将数据通过网络从一台设备传输到另一台设备
+
+网络：两台或多台设备通过一定物理设备连接起来构成了网络
+
+- 根据网络的覆盖范围不同，对网络进行分类:
+- 局域网：覆盖范围最小，仅仅覆盖一个教室或一个机房
+- 城域网： 覆盖范围较大，可以覆盖一个城市
+- 广域网：覆盖范围最大，可以覆盖全国，甚至全球，万维网是广域网的代表
+
+ip 地址：用于唯一标识网络中的每台计算机/主机（ipconfig）
+
+- ip地址的组成=网络地址+主机地址，比如: 192.168.16.69
+- IPv4网络地址资源有限，所以现在开始使用IPv6
+
+域名：将ip地址映射成域名（为了方便记忆，解决记ip的困难
+
+端口号：用于标识计算机上某个特定的网络程序
+
+- 表示形式: 以整数形式，端口范围0~655352个字节表示端口 [0~2^16-1]
+- 0~1024已经被占用，比如 ssh 22,ftp 21,smtp 25 http 80
+- 常见的网络程序端口号:
+    - tomcat :8080
+    - mysql:3306
+    - oracle:1521
+    - sqlserver:1433
+
+网络通信协议
+
+- 协议TCP/IP (Transmission ControlProtocol/Internet Protocol)
+  ，网络通讯协议，这个协议是Internet最基本的协议、Internet国际互联网络的基础，简单地说，就是由网络层的IP协议和传输层的TCP协议组成的。
+  ![image-20231030152621939](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231030152621939.png)
+- ![image-20231030152714825](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231030152714825.png)
+
+TCP 和 UDP
+
+- TCP协议：传输控制协议【better】
+    1. 使用TCP协议前，须先建立TCP连接，形成传输数据通道
+    2. 传输前，采用”三次握手"方式，是可靠的
+    3. TCP协议进行通信的两个应用进程: 客户端、服务端
+    4. 在连接中可进行大数据量的传输
+    5. 传输完毕，需释放已建立的连接，效率低
+- UDP协议：用户数据协议
+    1. 将数据、源、目的封装成数据包，不需要建立连接
+    2. 每个数据报的大小限制在64K内,不适合传输大量数据
+    3. 因无需连接，故是不可靠的
+    4. 发送数据结束时无需释放资源(因为不是面向连接的)，速度快
+
+### InetAddress 类
+
+相关方法
+
+```java
+//1. 获取本机的InetAddress 对象
+InetAddress localHost=InetAddress.getLocalHost();
+        System.out.println(localHost);//LAPTOP-AV2CUG49/192.168.97.86
+
+//2. 根据指定主机名 获取 InetAddress对象
+        InetAddress host1=InetAddress.getByName("LAPTOP-AV2CUG49");
+        System.out.println("host1="+host1);//LAPTOP-AV2CUG49/192.168.97.86
+
+//3. 根据域名返回 InetAddress对象, 比如 www.baidu.com 对应
+        InetAddress host2=InetAddress.getByName("www.baidu.com");
+        System.out.println("host2="+host2);//www.baidu.com / 14.119.104.227
+
+//4. 通过 InetAddress 对象，获取对应的地址
+        String hostAddress=host2.getHostAddress();
+        System.out.println("host2 对应的ip = "+hostAddress);//110.242.68.4
+
+//5. 通过 InetAddress 对象，获取对应的主机名/或者的域名
+        String hostName=host2.getHostName();
+        System.out.println("host2对应的主机名/域名="+hostName); // www.baidu.com
+```
+
+### Socket
+
+1. 套接字(Socket)开发网络应用程序被广泛采用，以至于成为事实上的标准。
+2. 通信的**两端都要有Socket**，是两台机器间通信的端点
+3. 网络通信其实就是Socket间的通信。
+4. Socket允许程序把网络连接当成一个流，数据在两个Socket间通过IO传输
+5. 一般主动发起通信的应用程序属客户端，等待通信请求的为服务端
+
+![image-20231030153500542](https://cdn.jsdelivr.net/gh/kixuan/PicGo/images/image-20231030153500542.png)
+
+【示例】编写一个服务端和一个客户端，服务器端在 9999端口监听，客户端连接到服务端，发送“hello, server”，并接收服务器端回发的"
+hello,client”再退出服务器端接收到客户端发送的信息，输出，并发送“hello,client”，再退出
+
+【服务端代码】
+
+```java
+
+@SuppressWarnings({"all"})
+public class SocketTCP03Server {
+    public static void main(String[] args) throws IOException {
+        //思路
+        //1. 在本机 的9999端口监听, 等待连接
+        //   细节: 要求在本机没有其它服务在监听9999
+        //   细节：这个 ServerSocket 可以通过 accept() 返回多个Socket[多个客户端连接服务器的并发]
+        ServerSocket serverSocket = new ServerSocket(9999);
+        System.out.println("服务端，在9999端口监听，等待连接..");
+        //2. 当没有客户端连接9999端口时，程序会 阻塞, 等待连接
+        //   如果有客户端连接，则会返回Socket对象，程序继续
+        Socket socket = serverSocket.accept();
+        System.out.println("服务端 socket =" + socket.getClass());
+
+        //3. 通过socket.getInputStream() 读取客户端写入到数据通道的数据, 显示
+        InputStream inputStream = socket.getInputStream();
+        //4. IO读取, 使用字符流, 老师使用 InputStreamReader 将 inputStream 转成字符流
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+        String s = bufferedReader.readLine();
+        System.out.println(s);//输出
+
+        //5. 获取socket相关联的输出流
+        OutputStream outputStream = socket.getOutputStream();
+        //    使用字符输出流的方式回复信息
+        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream));
+        bufferedWriter.write("hello client 字符流");
+        bufferedWriter.newLine();// 插入一个换行符，表示回复内容的结束
+        bufferedWriter.flush();//注意需要手动的flush
+
+
+        //6.关闭流和socket
+        bufferedWriter.close();
+        bufferedReader.close();
+        socket.close();
+        serverSocket.close();//关闭
+
+    }
+```
+
+【客户端代码】
+
+```java
+
+@SuppressWarnings({"all"})
+public class SocketTCP03Client {
+    public static void main(String[] args) throws IOException {
+        //思路
+        //1. 连接服务端 (ip , 端口）
+        //解读: 连接本机的 9999端口, 如果连接成功，返回Socket对象
+        Socket socket = new Socket(InetAddress.getLocalHost(), 9999);
+        System.out.println("客户端 socket返回=" + socket.getClass());
+        //2. 连接上后，生成Socket, 通过socket.getOutputStream()
+        //   得到 和 socket对象关联的输出流对象
+        OutputStream outputStream = socket.getOutputStream();
+        //3. 通过输出流，写入数据到 数据通道, 使用字符流
+        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream));
+        bufferedWriter.write("hello, server 字符流");
+        bufferedWriter.newLine();//插入一个换行符，表示写入的内容结束, 注意，要求对方使用readLine()!!!!
+        bufferedWriter.flush();// 如果使用的字符流，需要手动刷新，否则数据不会写入数据通道
+
+
+        //4. 获取和socket关联的输入流. 读取数据(字符)，并显示
+        InputStream inputStream = socket.getInputStream();
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+        String s = bufferedReader.readLine();
+        System.out.println(s);
+
+        //5. 关闭流对象和socket, 必须关闭
+        bufferedReader.close();//关闭外层流
+        bufferedWriter.close();
+        socket.close();
+        System.out.println("客户端退出.....");
+    }
+}
+```
+
+### TCP 网络通信编程
+
+1. 基于客户端一服务端的网络通信
+2. 底层使用的是TCP/IP协议
+3. 应用场景举例: 客户端发送数据，服务端接受并显示控制台
+4. 基于Socket的TCP编程
+
+netstat 指令
+
+- netstat -an 可以查看当前主机网络情况，包括端口监听情况和网络连接情况
+- netstat -an | more 可以分页显示
+- 说明：
+    - Listening 表示某个端口在监听
+    - 如果有一个外部程序(客户端)连接到该端口，就会显示一条连接信息
+    - ctrl + c 退出指令
