@@ -25,7 +25,7 @@ class T1 implements Runnable {
 
     @Override
     public void run() {
-        while (true) {
+        do {
             //每隔1秒输出 “hello,world”,输出10次
             System.out.println("hello,world " + (++count));
             try {
@@ -33,10 +33,7 @@ class T1 implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(count == 60) {
-                break;
-            }
-        }
+        } while (count != 60);
     }
 }
 
@@ -47,16 +44,13 @@ class T2 implements Runnable {
     @Override
     public void run() {
         //每隔1秒输出 “hi”,输出5次
-        while (true) {
+        do {
             System.out.println("hi " + (++count));
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(count == 50) {
-                break;
-            }
-        }
+        } while (count != 50);
     }
 }

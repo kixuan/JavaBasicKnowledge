@@ -13,9 +13,9 @@ public class Thread02 {
         Thread thread = new Thread(dog);
         thread.start();
 
-//        Tiger tiger = new Tiger();//实现了 Runnable
-//        ThreadProxy threadProxy = new ThreadProxy(tiger);
-//        threadProxy.start();
+        Tiger tiger = new Tiger();//实现了 Runnable
+        ThreadProxy threadProxy = new ThreadProxy(tiger);
+        threadProxy.start();
     }
 }
 
