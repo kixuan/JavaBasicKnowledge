@@ -11,8 +11,8 @@ spring:
     gateway:
       default-filters: # default-filters下的过滤器可以作用于所有路由
         # - AddRequestHeader=key, value
-         - PrintAny # 此处直接以自定义的GatewayFilterFactory类名称前缀类声明过滤器
-         - PrintAny2=1,2,3 # 注意，这里多个参数以","隔开，将来会按照shortcutFieldOrder()方法返回的参数顺序依次复制
+        - PrintAny # 此处直接以自定义的GatewayFilterFactory类名称前缀类声明过滤器
+        - PrintAny2=1,2,3 # 注意，这里多个参数以","隔开，将来会按照shortcutFieldOrder()方法返回的参数顺序依次复制
       routes:
         - id: item # 路由规则id，自定义，唯一
           uri: lb://item-service # 路由的目标服务，lb代表负载均衡，会从注册中心拉取服务列表
