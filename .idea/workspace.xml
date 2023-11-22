@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：SpringCloudDemo init">
-      <change beforePath="$PROJECT_DIR$/SpringCloudDemo/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudDemo/logs/cart-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudDemo/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudDemo/logs/item-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudDemo/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudDemo/logs/user-service/spring.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/JVM.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/heap/Demo1_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/heap/Demo1_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/stack/Demo1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +72,90 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Project/Java/JavaStudy/JavaBasicKnowledge",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/JavaStudy/JVM/src/com/xuan/charpter1/heap&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\Java\JavaStudy\JVM\src\com\xuan\charpter1\heap" />
+      <recent name="E:\Project\Java\JavaStudy\123" />
+      <recent name="E:\Project\Java\JavaStudy\JVM" />
+      <recent name="E:\Project\Java\JavaStudy\JVM\P1\stack" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\Java\JavaStudy\123\src" />
+      <recent name="E:\Project\Java\JavaStudy\JVM\com\xuan\charpter1" />
+      <recent name="E:\Project\Java\JavaStudy\JVM\com\xuan\stack" />
+      <recent name="E:\Project\Java\JavaStudy\JVM\com\xuan" />
+      <recent name="E:\Project\Java\JavaStudy\JVM" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.HelloWorld">
+    <configuration name="Demo1_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuan.charpter1.heap.Demo1_13" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuan.charpter1.heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuan.charpter1.heap.Demo1_4" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuan.charpter1.heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuan.charpter1.HelloWorld" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuan.charpter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.HelloWorld" />
+        <item itemvalue="应用程序.Demo1_13" />
+        <item itemvalue="应用程序.Demo1_4" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -94,6 +167,8 @@
       <workItem from="1697452082376" duration="2740000" />
       <workItem from="1697470381894" duration="495000" />
       <workItem from="1697538364110" duration="33000" />
+      <workItem from="1700629908930" duration="6864000" />
+      <workItem from="1700641474356" duration="1559000" />
     </task>
     <task id="LOCAL-00001" summary="feat:13.常用类">
       <option name="closed" value="true" />
@@ -223,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697470644686</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat：SpringCloudDemo init">
+      <option name="closed" value="true" />
+      <created>1700629971995</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700629971995</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
