@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：SpringCloudDemo init">
-      <change afterPath="$PROJECT_DIR$/JVM/JVM.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/heap/Demo1_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/heap/Demo1_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/stack/Demo1_1.java" afterDir="false" />
+    <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：JVM内存结构">
       <change beforePath="$PROJECT_DIR$/.idea/JavaStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaStudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -18,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -80,7 +82,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/JavaStudy/JVM/src/com/xuan/charpter1/heap&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/JavaStudy/JavaBasicKnowledge/other&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -95,10 +97,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\Java\JavaStudy\JavaBasicKnowledge\other" />
+      <recent name="E:\Project\Java\JavaStudy\JavaBasicKnowledge" />
       <recent name="E:\Project\Java\JavaStudy\JVM\src\com\xuan\charpter1\heap" />
       <recent name="E:\Project\Java\JavaStudy\123" />
       <recent name="E:\Project\Java\JavaStudy\JVM" />
-      <recent name="E:\Project\Java\JavaStudy\JVM\P1\stack" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Project\Java\JavaStudy\123\src" />
@@ -107,8 +110,11 @@
       <recent name="E:\Project\Java\JavaStudy\JVM\com\xuan" />
       <recent name="E:\Project\Java\JavaStudy\JVM" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuan.charpter1" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.HelloWorld">
+  <component name="RunManager" selected="应用程序.Demo1_4">
     <configuration name="Demo1_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuan.charpter1.heap.Demo1_13" />
       <module name="JavaStudy" />
@@ -168,7 +174,13 @@
       <workItem from="1697470381894" duration="495000" />
       <workItem from="1697538364110" duration="33000" />
       <workItem from="1700629908930" duration="6864000" />
-      <workItem from="1700641474356" duration="1559000" />
+      <workItem from="1700641474356" duration="3291000" />
+      <workItem from="1700726431787" duration="204000" />
+      <workItem from="1700887562547" duration="752000" />
+      <workItem from="1700994320360" duration="1407000" />
+      <workItem from="1701060958459" duration="4000" />
+      <workItem from="1701248800546" duration="353000" />
+      <workItem from="1701388621423" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="feat:13.常用类">
       <option name="closed" value="true" />
@@ -306,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700629971995</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat：JVM内存结构">
+      <option name="closed" value="true" />
+      <created>1700645900501</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645900501</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +371,8 @@
     <MESSAGE value="feat：WordExportDemo" />
     <MESSAGE value="feat：RabbitMQDemo" />
     <MESSAGE value="feat：SpringCloudDemo init" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat：SpringCloudDemo init" />
+    <MESSAGE value="feat：JVM内存结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：JVM内存结构" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
