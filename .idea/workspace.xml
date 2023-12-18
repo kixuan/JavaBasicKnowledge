@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：JVM内存结构">
-      <change beforePath="$PROJECT_DIR$/.idea/JavaStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：数据结构：完善树">
+      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/direct/Demo1_26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/direct/Demo1_27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/direct/Demo1_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/metaspace/Demo1_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/stack/Demo1_17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/JVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/JVM/JVM.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +86,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/JavaStudy/JavaBasicKnowledge/other&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/JavaStudy/JVM/src/com/xuan/charpter1/direct&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,11 +101,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\Java\JavaStudy\JVM\src\com\xuan\charpter1\direct" />
+      <recent name="E:\Project\Java\JavaStudy\JVM\src\com\xuan\charpter1\metaspace" />
+      <recent name="E:\Project\Java\JavaStudy\JVM\src\com\xuan\charpter1\stack" />
+      <recent name="E:\Project\Java\JavaStudy\数据结构" />
       <recent name="E:\Project\Java\JavaStudy\JavaBasicKnowledge\other" />
-      <recent name="E:\Project\Java\JavaStudy\JavaBasicKnowledge" />
-      <recent name="E:\Project\Java\JavaStudy\JVM\src\com\xuan\charpter1\heap" />
-      <recent name="E:\Project\Java\JavaStudy\123" />
-      <recent name="E:\Project\Java\JavaStudy\JVM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Project\Java\JavaStudy\123\src" />
@@ -114,13 +118,39 @@
       <recent name="com.xuan.charpter1" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Demo1_4">
+  <component name="RunManager" selected="应用程序.Demo1_26">
     <configuration name="Demo1_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuan.charpter1.heap.Demo1_13" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xuan.charpter1.heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuan.charpter1.stack.Demo1_17" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuan.charpter1.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuan.charpter1.direct.Demo1_26" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuan.charpter1.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,6 +186,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Demo1_26" />
+        <item itemvalue="应用程序.Demo1_17" />
         <item itemvalue="应用程序.HelloWorld" />
         <item itemvalue="应用程序.Demo1_13" />
         <item itemvalue="应用程序.Demo1_4" />
@@ -181,6 +213,16 @@
       <workItem from="1701060958459" duration="4000" />
       <workItem from="1701248800546" duration="353000" />
       <workItem from="1701388621423" duration="282000" />
+      <workItem from="1701911463881" duration="153000" />
+      <workItem from="1701913892371" duration="37000" />
+      <workItem from="1702025537487" duration="158000" />
+      <workItem from="1702191316228" duration="670000" />
+      <workItem from="1702201714594" duration="595000" />
+      <workItem from="1702224638045" duration="2000" />
+      <workItem from="1702224729818" duration="32000" />
+      <workItem from="1702900630581" duration="134000" />
+      <workItem from="1702903834128" duration="4588000" />
+      <workItem from="1702915201428" duration="814000" />
     </task>
     <task id="LOCAL-00001" summary="feat:13.常用类">
       <option name="closed" value="true" />
@@ -326,7 +368,31 @@
       <option name="project" value="LOCAL" />
       <updated>1700645900501</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat：数据结构：线性表&amp;栈和队列">
+      <option name="closed" value="true" />
+      <created>1701911530083</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1701911530083</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat：数据结构：树&amp;图">
+      <option name="closed" value="true" />
+      <created>1702191371891</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702191371891</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat：数据结构：完善树">
+      <option name="closed" value="true" />
+      <created>1702900667697</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702900667697</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +438,10 @@
     <MESSAGE value="feat：RabbitMQDemo" />
     <MESSAGE value="feat：SpringCloudDemo init" />
     <MESSAGE value="feat：JVM内存结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat：JVM内存结构" />
+    <MESSAGE value="feat：数据结构：线性表&amp;栈和队列" />
+    <MESSAGE value="feat：数据结构：树&amp;图" />
+    <MESSAGE value="feat：数据结构：完善树" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：数据结构：完善树" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
