@@ -51,7 +51,7 @@ public class GenericExercise02 {
  * 2) 为每一个属性定义 getter, setter 方法；
  * 3) 重写 toString 方法输出 name, sal, birthday
  * 4) MyDate类包含: private成员变量month,day,year；并为每一个属性定义 getter, setter 方法；
- * 5) 创建该类的 3 个对象，并把这些对象放入 ArrayList 集合中（ArrayList 需使用泛型来定义），对集合中的元素进行排序，并遍历输出：
+ * 5) 创建该类的 3 个对象，并把这些对象放入 ArrayListDemo 集合中（ArrayListDemo 需使用泛型来定义），对集合中的元素进行排序，并遍历输出：
  * <p>
  * 排序方式： 调用ArrayList 的 sort 方法 ,
  * 传入 Comparator对象[使用泛型]，先按照name排序，如果name相同，则按生日日期的先后排序。【即：定制排序】

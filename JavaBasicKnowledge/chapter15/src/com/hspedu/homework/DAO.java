@@ -34,7 +34,7 @@ public class DAO<T> {//泛型类
         //遍历map
         Set<String> keySet = map.keySet();
         for (String key : keySet) {
-            //map.get(key) 返回就是 User对象->ArrayList
+            //map.get(key) 返回就是 User对象->ArrayListDemo
             list.add(map.get(key));//也可以直接使用本类的 get(String id)
         }
 

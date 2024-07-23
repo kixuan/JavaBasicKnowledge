@@ -12,7 +12,7 @@ public class GenericDetail {
     public static void main(String[] args) {
         //1.给泛型指向数据类型是，要求是引用类型，不能是基本数据类型
         List<Integer> list = new ArrayList<Integer>(); //OK
-        //List<int> list2 = new ArrayList<int>();//错误
+        //List<int> list2 = new ArrayListDemo<int>();//错误
 
         //2. 说明
         //因为 E 指定了 A 类型, 构造器传入了 new A()
@@ -32,7 +32,7 @@ public class GenericDetail {
         ArrayList<Pig> pigs = new ArrayList<>();
 
         //4. 如果是这样写 泛型默认是 Object
-        ArrayList arrayList = new ArrayList();//等价 ArrayList<Object> arrayList = new ArrayList<Object>();
+        ArrayList arrayList = new ArrayList();//等价 ArrayListDemo<Object> arrayList = new ArrayListDemo<Object>();
 
         /*
             public boolean add(Object e) {

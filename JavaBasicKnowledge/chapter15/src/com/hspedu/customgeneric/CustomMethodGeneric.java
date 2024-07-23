@@ -16,7 +16,7 @@ public class CustomMethodGeneric {
         car.fly(300, 100.1);//当调用方法时，传入参数，编译器，就会确定类型
 
         //测试
-        //T->String, R-> ArrayList
+        //T->String, R-> ArrayListDemo
         Fish<String, ArrayList> fish = new Fish<>();
         fish.hello(new ArrayList(), 11.3f);
     }
@@ -54,7 +54,7 @@ class Fish<T, R> {//泛型类
 
     //泛型方法，可以使用类声明的泛型，也可以使用自己声明泛型
     public <K> void hello(R r, K k) {
-        System.out.println(r.getClass());//ArrayList
+        System.out.println(r.getClass());//ArrayListDemo
         System.out.println(k.getClass());//Float
     }
 
