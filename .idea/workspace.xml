@@ -4,12 +4,587 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：JVM垃圾回收">
-      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter2/Demo2_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter2/Demo2_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JVM/src/com/xuan/charpter2/Demo2_5.java" afterDir="false" />
+    <list default="true" id="82a7e1f1-27f0-4cda-a53d-e69347000fe6" name="更改" comment="feat：数据结构补充习题">
+      <change afterPath="$PROJECT_DIR$/JUC/并发编程.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/并发编程_原理.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/并发编程_应用.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/并发编程_模式.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/2024暑假学习/docs/JVM原理篇.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/2024暑假学习/docs/JVM基础篇.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/2024暑假学习/docs/JVM实战篇.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM/2024暑假学习/docs/JVM高级篇.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/MQ高级.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jihe/src/com/xuan/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/1000道 互联网Java工程师面试题.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/2023-08-23.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/2024最新场景题.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/8、好友关注.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/Java-SE总结.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/JavaGuide面试突击版5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/JavaSE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/Mic老师面试文档合集.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/MySQL面渣总结.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/Mybatis面渣总结.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/Tom老师面试文档合集.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/java数据结构与算法 .md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/redis面渣总结.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/代码随想录面经/代码随想录知识星球精华（第四版）最强八股文-基础篇.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/代码随想录面经/代码随想录知识星球精华（第四版）最强八股文-算法篇.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/代码随想录面经/代码随想录知识星球精华（第四版）最强八股文-面经篇.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/代码随想录面经/田螺牌后端面试指南.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/BATJ面试题汇总及详解(进大厂必看) (65页).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/JAVA最新面试核心知识点整理(283页).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新2023版面试题及解答-阿里内部资料(266页).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/2023年最新版--Java+最常见的+200++面试题汇总+答案总结汇总.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/BIO,NIO,AIO,Netty面试题 35道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Dubbo面试题 47道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/ElasticSearch面试题 30道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Git常用命令面试题 60道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/JVM常见面试题解析.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Java基础面试题 91道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Java并发编程最全面试题 123道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Java异常面试题 33道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Java虚拟机（JVM）面试题 51道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Java集合面试题 52道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Kafka知识汇总 18道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Linux面试题 50道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Memcache 面试题  23道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/MyBatis面试题 37道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/MySQL面试题 40道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/MySQL面试题（含答案）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/MySQL高频面试题 10道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Mybatis面试题（含答案）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Netty面试题 20道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Nginx面试题 23道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/RabbitMQ 补充 6道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/RabbitMQ面试题 22道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Redis面试题  42道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Redis面试题 70道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Redis面试题（含答案）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/SpringBoot面试题 30道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/SpringBoot面试题 44道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/SpringCloud面试题 49道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/SpringMVC面试题 29道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Spring面试题 75道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Spring面试题（含答案）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/TCP，UDP，Socket，Http网络编程面试题 47道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Tomcat面试题 14道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Zookeeper面试题 20道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Zookeeper面试题 28道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/Zookeeper面试题.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/多线程面试59题（含答案）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/大数据面试题 100道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java最新面试题资料合集/设计模式面试题 14道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/Java面试题合集最新版2023(485页).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/10-彻底理解Java中的各种锁.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/12-分布式服务架构.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/13-Mysql军规.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/14-Netty实战.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/18-美团和蚂蚁金服面试笔记.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/20-Redis命令参考手册完整版-图灵课堂.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/ASM4使用指南.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/Docker中文手册.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/JVM指令手册.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/JVM调优工具命令详解-图灵课堂.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/class文件的字节码结构.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/jls8-图灵课堂.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/jvms11-图灵课堂.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/jvms8-图灵课堂.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/并发内存模型与线程规范-图灵课堂.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/互联网高薪必读书单详情/彻底理解Java中的各种锁-图灵课堂.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/图灵面试/阿里 百度 美团面试题合集.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/计算机网络面渣总结.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/PPT/01-面试-准备篇.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/JAVA开发_李传播_5年.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/JAVA开发_李传播_5年.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/Java开发_AAA_N年.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/Java开发_CCC_N年.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/Java开发_DDD_N年.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/Java开发_EEE_N年.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/Java开发_FFF_N年.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/Java开发_KKK_N.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/Java开发_XXX_N年.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/Java开发_YYY_N年.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/Java开发_ZZZ_N年.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/【参考】1年_专科.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/【参考】1年_本科.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/【参考】1年_硕士.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/【参考】2年_专科.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/【参考】2年_本科.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/【参考】3年_专科.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/【参考】3年_本科.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/【必看】Java批注简历标准.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/【必看】面试参考话术.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/亲和版个人简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/冷静版个人简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/时尚线条简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/灰色个性简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/灰色大气简约简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/灰蓝色色时尚简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/科技版简历模板.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/简洁版个人简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/简约大气橙色简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/经典风格简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/01-准备篇/资料/Java开发参考简历/简历样式模板/蓝色个性简历模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/02-Redis篇/PPT/02-Redis篇.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/02-Redis篇/资料/Redis面试题-参考回答.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/02-Redis篇/资料/Redis面试题-参考回答.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/03-数据库篇/03-MySQL篇.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/03-数据库篇/MySQL面试题-参考回答.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/03-数据库篇/MySQL面试题-参考回答.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/04-框架篇/PPT/04-框架篇.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/04-框架篇/代码.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/04-框架篇/资料/框架篇面试题-参考回答.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/04-框架篇/资料/框架篇面试题-参考回答.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/PPT/05-微服务篇.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222612693.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222626433.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222647998.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222724431.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222738253.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222753214.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222810811.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222828861.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222848636.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222905773.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222919660.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222932231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803222949320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803223000602.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803223015781.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803223035498.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803223048504.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803223105523.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803223118841.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803224538711.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.assets/image-20210803234832508.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/skywalking/讲义/项目链路追踪.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/微服务面试题-参考回答.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/05-微服务篇/资料/微服务面试题-参考回答.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/06-消息中间件篇/PPT/06-消息中间件篇.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/06-消息中间件篇/资料/消息中间件面试题-参考回答.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/06-消息中间件篇/资料/消息中间件面试题-参考回答.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/PPT/07-常见集合篇.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/PPT/~$07-常见集合篇.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20220820104903422.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20220820104950846.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20221007101811885.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20221007101831281.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20221007110404375.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427162524322.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427173120668.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427173742389.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427173922705.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427173937663.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427174832858.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427175545402.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427175633253.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427175849493.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427180056509.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427192118259.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427192154014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427192200918.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427192620292.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230427192644244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428185505677.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428185600918.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428185657791.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428185922776.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428185945929.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428190130901.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428190210915.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428190324752.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428190353286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428190450517.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428194641694.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428194715016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428194831426.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428194904383.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428194931132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428195206422.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428195341917.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428195449799.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428195832724.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428200919454.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428201000814.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428201321607.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428203219225.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428203437910.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428203711269.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428203858903.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428203924816.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428204902016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428210404117.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428210424304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428210450744.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428210624847.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428210844694.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428211031968.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428211304013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428212501408.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428212553393.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428212601977.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428212729580.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428213115071.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428213513669.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428213533483.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428214732877.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428214806072.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428214908652.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.assets/image-20230428214937231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/讲义/Java集合相关面试题.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/资料/hash-demo.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/07-常见集合篇/资料/hashmap源码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/PPT/08-多线程相关面试题.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/代码/jcstress-demo.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/代码/juc-project.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/代码/thread-project.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/ReentrantLock加锁和解锁过程.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20210824164717055.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20210824164853535.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20210831093204388.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220204222010008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220205092454233.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220205094004602.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220205094926130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220819132839511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220819133305480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220821003816845.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220831195353786.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901110122451.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901112811374.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901121814290.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901121822268.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901123003719.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901123045003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901123201248.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901140857623.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901183856096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220901184120726.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220902135259000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220902171032898.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220902171426738.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220902172229567.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220902222630304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220902222715863.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220902223846871.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20220902224028438.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221007151910345.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221007151919542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026105350827.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026105442158.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026105607248.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026105641323.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026110310947.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026110452264.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026111154135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026111227136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026111246089.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026111313057.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026111429301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20221026111506307.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230503203246348.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230503203330700.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230503203629212.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504165342501.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504165833809.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504172253826.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504172414210.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504172541922.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504172957271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504173414009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504173520412.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504173611219.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504173711041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504173922343.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504173955680.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504174045458.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504174505031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504174525256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504174736226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504181638237.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504181827330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504181947319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504182129820.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504182447552.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504182737931.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504182838426.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230504182958703.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505082441116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505082835588.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505082923729.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505083124159.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505083159269.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505083217904.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505083840046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505084451193.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505091736569.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505091827720.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505091833629.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505092151244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505092340431.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505092654811.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505093055382.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505093507265.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505205200628.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505210853493.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505211002252.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505211209336.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505220514872.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505220701835.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505221424359.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505221837189.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505221959259.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505222050294.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505222126391.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505222203615.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505222319526.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505223014946.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505223219951.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505223246059.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505223442924.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505223533130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505223536657.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505223640038.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505224057228.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505224341410.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505224626253.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505224715087.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505224755797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505224812015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/image-20230505224857538.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.assets/线程池的执行原理.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/08-并发编程篇/讲义/多线程相关面试题.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/PPT/09-JVM相关面试题.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/代码/jvm-demo.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/20161222153407_471.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/20161222153407_691.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802001502483.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802001515438.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802001533126.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802123228945.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802123241536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802123304797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802123315514.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802124108240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802124119931.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802214415076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802215543670.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200802222734870.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20200825231704058.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220826235336379.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220903144547378.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220903144622508.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220903144652067.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220903215611606.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220903222719878.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220903233627146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904003215993.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904003730785.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904004306359.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904005802025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904010012624.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904010201496.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904010634153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904104739581.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904110804287.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904111059602.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904114511854.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904115157363.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904115936095.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904120057211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904120256011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904120356174.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904132000870.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904132011289.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904132134095.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904132346495.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904132925812.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904133722905.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904151948778.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904161818255.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904162117022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904162654928.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220904162941977.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220907174130993.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220907174151925.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20220907174308262.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506094254360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506094411247.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506094602329.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506094735014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506094803545.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506094938843.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506095140595.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506095306061.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506095401637.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506095504213.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506095634842.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506100142724.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506100501905.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506100548455.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506100621146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506100746624.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506100848497.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506100920042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506101032605.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506101115674.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506101213373.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506101420202.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506101445898.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506101504632.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506101625087.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506101641837.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506101824622.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506102311951.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506104954777.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111102825.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111136231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111255401.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111327590.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111512450.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111801764.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111817938.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111834758.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111919008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506111957793.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506112047190.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506131229649.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506131308654.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506131415418.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506131442503.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506131544447.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506131607645.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506131640893.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154006266.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154034531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154042673.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154107944.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154117857.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154323950.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154542687.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154607558.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154633118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154705088.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154759809.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154826981.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506154859985.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155000503.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155047765.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155116267.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155146370.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155341703.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155416293.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155501557.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155518510.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155552693.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.assets/image-20230506155704119.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/讲义/JVM相关面试题.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/09-JVM虚拟机篇/资料/apache-tomcat-8.5.24.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/PPT/10-设计模式.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/PPT/11-常见技术场景.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/代码/designpattern-demo.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20220913110351052.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20220913110915155.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20220913115948157.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20220913123809949.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20220913124542154.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20220913125116591.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20220913125131383.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20220913125209804.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521101639915.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521102022928.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521102122950.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521102135897.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521102156863.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521102319997.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521102452501.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521104457397.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521104504491.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521104952085.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521105012350.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521105346337.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521111455359.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521111943231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521112108550.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521112731617.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521112802886.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/image-20230521112831065.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.assets/简单工厂.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/01-设计模式/设计模式.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521113500488.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521113544219.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521113906521.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521113941467.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521114305463.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521114432028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521124717749.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521125012727.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521125136717.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521232030067.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521232726959.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521232850921.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521232913086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521233150276.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521233220905.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521233554657.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521233600556.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521233715574.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521233926897.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets/image-20230521233934644.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/讲义/02-技术场景/常见技术场景.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522101505429.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522102944443.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522103615291.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522104958953.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522105023786.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522105548828.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522111836857.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522112008818.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522112052902.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522112132304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522112429309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.assets/image-20230522112526401.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/10-企业场景篇/资料/ELK搭建/ELK搭建.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/Java面试专题课-完结篇.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试八股/黑马202304java面试/网盘链接易失效，其余资料下载看此文档.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaStudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JVM/JVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/JVM/JVM.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/JVM.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/direct/Demo1_26.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/direct/Demo1_27.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/direct/Demo1_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/heap/Demo1_13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/heap/Demo1_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/metaspace/Demo1_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/stack/Demo1_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter1/stack/Demo1_17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter2/Demo2_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter2/Demo2_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/com/xuan/charpter2/Demo2_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/黑马讲义/0_引言.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/黑马讲义/1_内存结构.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/黑马讲义/2_垃圾回收.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/黑马讲义/3_类加载与字节码技术.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/黑马讲义/4_内存模型.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasicKnowledge/.idea/JavaBasicKnowledge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasicKnowledge/.idea/JavaBasicKnowledge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasicKnowledge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasicKnowledge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/GenericExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/GenericExtends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/customgeneric/CustomMethodGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/customgeneric/CustomMethodGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/generic/GenericDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/generic/GenericDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/generic/GenericExercise02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/generic/GenericExercise02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/generic/improve/Generic02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/generic/improve/Generic02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/homework/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasicKnowledge/chapter15/src/com/hspedu/homework/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/MQ基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/MQ基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/MQ高级.md" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/MQ高级.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,34 +644,34 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2WqFD8BQJT5xdxm3PeX3lyNPMkR" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/Java/JavaStudy/数据结构&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/Project/Java/JavaStudy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Project\Java\JavaStudy\数据结构" />
@@ -106,11 +681,11 @@
       <recent name="E:\Project\Java\JavaStudy\JVM\src\com\xuan\charpter1\stack" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\Java\JavaStudy\jihe\src\com\xuan" />
+      <recent name="E:\Project\Java\JavaStudy\集合" />
       <recent name="E:\Project\Java\JavaStudy\123\src" />
       <recent name="E:\Project\Java\JavaStudy\JVM\com\xuan\charpter1" />
       <recent name="E:\Project\Java\JavaStudy\JVM\com\xuan\stack" />
-      <recent name="E:\Project\Java\JavaStudy\JVM\com\xuan" />
-      <recent name="E:\Project\Java\JavaStudy\JVM" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xuan.charpter1" />
@@ -185,10 +760,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="应用程序.Demo2_4" />
-      <item itemvalue="应用程序.Demo2_3" />
       <item itemvalue="应用程序.Demo1_17" />
       <item itemvalue="应用程序.Demo1_26" />
+      <item itemvalue="应用程序.Demo2_3" />
+      <item itemvalue="应用程序.Demo2_4" />
       <item itemvalue="应用程序.HelloWorld" />
     </list>
     <recent_temporary>
@@ -235,7 +810,17 @@
       <workItem from="1703055005735" duration="3441000" />
       <workItem from="1703074448065" duration="20000" />
       <workItem from="1703138702766" duration="92000" />
-      <workItem from="1703232598025" duration="1570000" />
+      <workItem from="1703232598025" duration="2900000" />
+      <workItem from="1703833675403" duration="89000" />
+      <workItem from="1703901215728" duration="243000" />
+      <workItem from="1703906896835" duration="3000" />
+      <workItem from="1705239741780" duration="354000" />
+      <workItem from="1711801148957" duration="6200000" />
+      <workItem from="1712047825799" duration="597000" />
+      <workItem from="1712216084211" duration="1256000" />
+      <workItem from="1712750343708" duration="1194000" />
+      <workItem from="1721704553066" duration="4000" />
+      <workItem from="1721716654610" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="feat:13.常用类">
       <option name="closed" value="true" />
@@ -429,7 +1014,31 @@
       <option name="project" value="LOCAL" />
       <updated>1703138776624</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat：JVM垃圾回收">
+      <option name="closed" value="true" />
+      <created>1703234194417</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1703234194417</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat：JVM垃圾回收">
+      <option name="closed" value="true" />
+      <created>1703234233796</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1703234233796</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat：数据结构补充习题">
+      <option name="closed" value="true" />
+      <created>1703833749208</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1703833749208</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,6 +1069,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/JavaBasicKnowledge" />
+    </ignored-roots>
     <MESSAGE value="feat:RabbitMQ学习" />
     <MESSAGE value="feat:13.常用类" />
     <MESSAGE value="feat：13.常用类" />
@@ -482,7 +1094,8 @@
     <MESSAGE value="feat：数据结构：完善图" />
     <MESSAGE value="feat：数据结构：其他章节【广义表、集合字典、搜索结构】" />
     <MESSAGE value="feat：JVM垃圾回收" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat：JVM垃圾回收" />
+    <MESSAGE value="feat：数据结构补充习题" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：数据结构补充习题" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
